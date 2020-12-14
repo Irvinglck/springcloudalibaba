@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 
 @RestController
-@RequestMapping("/payMent")
+@RequestMapping("/payment")
 @Slf4j
 public class PaymentControllor {
 
@@ -25,7 +25,7 @@ public class PaymentControllor {
     }
 
     @PostMapping("/create")
-    public CommonsResult createPayMent(Payment payment) {
+    public CommonsResult createPayMent(@RequestBody Payment payment) {
         int i = paymentService.create(payment);
         log.info("插入结果 {} ", i);
         return i > 0 ? new CommonsResult<>(200, "插入成功", i) :
