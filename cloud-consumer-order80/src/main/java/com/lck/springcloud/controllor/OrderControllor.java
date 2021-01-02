@@ -6,6 +6,7 @@ import com.lck.springcloud.entities.Payment;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,7 +20,7 @@ import java.util.Set;
 @Slf4j
 public class OrderControllor {
 
-//    private final static String PROVIDER_URL = "http://localhost:8001"; 单机版本
+    //    private final static String PROVIDER_URL = "http://localhost:8001"; 单机版本
     private final static String PROVIDER_URL = "http://CLOUD-PAYMENT-SERVICE";//集群版本
 
     @Resource
@@ -32,19 +33,29 @@ public class OrderControllor {
         return restTemplate.getForObject(PROVIDER_URL + "/payment/get/" + id, CommonsResult.class);
     }
 
+    @GetMapping("/consumer/payment2/get/{id}")
+    public CommonsResult getPayment2(@PathVariable("id") Long id) {
+        ResponseEntity<CommonsResult> result = restTemplate.getForEntity(PROVIDER_URL + "/payment/get/" + id, CommonsResult.class);
+        if(result.getStatusCode().is2xxSuccessful())
+            return result.getBody();
+        else{
+            return new CommonsResult(444,"获取资源错误");
+        }
+}
+
     @GetMapping("/consumer/payment/create")
     public CommonsResult create(Payment payment) {
-        return restTemplate.postForObject(PROVIDER_URL + "/payment/create",payment, CommonsResult.class);
+        return restTemplate.postForObject(PROVIDER_URL + "/payment/create", payment, CommonsResult.class);
     }
 
     @GetMapping("/getDiscovery")
-    public Object getDiscovery(){
+    public Object getDiscovery() {
         List<String> services = discoveryClient.getServices();
         services.forEach(System.out::println);
 
         List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
-        instances.forEach(item->{
-            log.info(item.getHost()+"\t"+item.getServiceId()+"\t"+item.getMetadata()+"\t"+
+        instances.forEach(item -> {
+            log.info(item.getHost() + "\t" + item.getServiceId() + "\t" + item.getMetadata() + "\t" +
                     item.getUri());
         });
         return instances;
