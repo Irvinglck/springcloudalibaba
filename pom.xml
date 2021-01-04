@@ -20,6 +20,7 @@
         <module>cloud-provider-payment-consul8006</module>
         <module>cloud-consumer-order-consul80</module>
         <module>cloud-consumer-feign-order80</module>
+        <module>cloud-provider-hystrix-payment8001</module>
     </modules>
     <!--  同意jar管理-->
     <properties>
