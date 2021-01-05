@@ -11,20 +11,18 @@ import javax.annotation.Resource;
 
 @RestController
 @Slf4j
-public class PaymentControllor {
-
+public class HystrixOrderControllor {
     @Resource
     private PaymentService paymentService;
 
-    @GetMapping("/payment/testOk/{id}")
-    public String testOk(@PathVariable("id") Integer id){
-        log.info("处理OK请求 "+System.currentTimeMillis());
+
+    @GetMapping("/consumer/testOk/{id}")
+    public String testOk(@PathVariable("id") Integer id) {
         return paymentService.testOk(id);
     }
 
-    @GetMapping("/payment/testTimeOut/{id}")
+    @GetMapping("/consumer/testTimeOut/{id}")
     public String testTimeOut(@PathVariable("id") Integer id){
-        log.info("处理testTimeOut请求 "+System.currentTimeMillis());
         return paymentService.testTimeOut(id);
     }
 }
