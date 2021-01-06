@@ -2,6 +2,7 @@ package com.lck.springcloud.controllor;
 
 
 import com.lck.springcloud.service.PaymentService;
+import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import lombok.extern.slf4j.Slf4j;
@@ -14,6 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 @RestController
 @Slf4j
+@DefaultProperties(defaultFallback="falllBackCompensate_galable")
 public class HystrixOrderControllor {
     @Resource
     private PaymentService paymentService;
@@ -25,10 +27,11 @@ public class HystrixOrderControllor {
     }
 
 
-    @HystrixCommand(fallbackMethod = "falllBackCompensate",
-            commandProperties={@HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds",
-                    value = "2000")})
+//    @HystrixCommand(fallbackMethod = "falllBackCompensate",
+//            commandProperties={@HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds",
+//                    value = "2000")})
     @GetMapping("/consumer/testTimeOut/{id}")
+    @HystrixCommand
     public String testTimeOut(@PathVariable("id") Integer id){
         try {
             TimeUnit.SECONDS.sleep(3);
@@ -40,5 +43,8 @@ public class HystrixOrderControllor {
 
     public String falllBackCompensate(@PathVariable("id") Integer id){
         return "hystrix消费方客户端系统繁忙,稍后重试"+id+"_______"+System.currentTimeMillis();
+    }
+    private String falllBackCompensate_galable(){
+        return "galable___hystrix消费方客户端系统繁忙,稍后重试"+System.currentTimeMillis();
     }
 }
