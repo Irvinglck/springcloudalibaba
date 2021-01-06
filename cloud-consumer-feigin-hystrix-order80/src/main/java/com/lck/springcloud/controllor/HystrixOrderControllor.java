@@ -2,12 +2,15 @@ package com.lck.springcloud.controllor;
 
 
 import com.lck.springcloud.service.PaymentService;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.util.concurrent.TimeUnit;
 
 @RestController
 @Slf4j
@@ -21,8 +24,21 @@ public class HystrixOrderControllor {
         return paymentService.testOk(id);
     }
 
+
+    @HystrixCommand(fallbackMethod = "falllBackCompensate",
+            commandProperties={@HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds",
+                    value = "2000")})
     @GetMapping("/consumer/testTimeOut/{id}")
     public String testTimeOut(@PathVariable("id") Integer id){
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return paymentService.testTimeOut(id);
+    }
+
+    public String falllBackCompensate(@PathVariable("id") Integer id){
+        return "hystrix消费方客户端系统繁忙,稍后重试"+id+"_______"+System.currentTimeMillis();
     }
 }
