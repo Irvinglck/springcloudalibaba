@@ -5,4 +5,8 @@ public interface PaymentService {
     String testOk(Integer id);
 
     String testTimeOut(Integer id);
+
+    String testFusing(Integer id);
+
+
 }

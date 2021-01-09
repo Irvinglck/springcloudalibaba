@@ -27,4 +27,11 @@ public class PaymentControllor {
         log.info("处理testTimeOut请求 "+System.currentTimeMillis());
         return paymentService.testTimeOut(id);
     }
+
+    //服务熔断
+    @GetMapping("/payment/fusing/{id}")
+    public String testFusing(@PathVariable("id") Integer id){
+        log.info("处理服务熔断testFusing请求 "+System.currentTimeMillis());
+        return paymentService.testFusing(id);
+    }
 }
