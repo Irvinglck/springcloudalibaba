@@ -23,6 +23,7 @@
         <module>cloud-provider-hystrix-payment8001</module>
         <module>cloud-consumer-feigin-hystrix-order80</module>
         <module>cloud-hystrix-dashboard9001</module>
+        <module>cloud-getway-getway9527</module>
     </modules>
     <!--  同意jar管理-->
     <properties>
