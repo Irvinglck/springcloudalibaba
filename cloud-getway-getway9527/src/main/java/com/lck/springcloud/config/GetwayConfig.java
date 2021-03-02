@@ -10,7 +10,8 @@ public class GetwayConfig {
     @Bean
     public RouteLocator customerRouteLocator(RouteLocatorBuilder routeLocatorBuilder) {
         RouteLocatorBuilder.Builder routes = routeLocatorBuilder.routes();
-        routes.route("path_route_path", r -> r.path("/guoji").uri("http://news.baidu.com/guoji")).build();
+        routes.route("path_route_path", r -> r.path("/guoji")
+                .uri("http://news.baidu.com/guoji")).build();
         return routes.build();
     }
 
