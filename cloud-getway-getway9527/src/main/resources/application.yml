@@ -18,7 +18,11 @@ spring:
         - id: payment_route2
           uri: http://localhost:8001
           predicates:
-            Path=/payment/create/** #断言,路径相匹配的进行路由
+            - Path=/payment/create/** #断言,路径相匹配的进行路由
+        - id: payment_route3_socket
+          uri: lb:ws://cloud-payment-service  #lb:ws://xxx 表示从注册中心获取路径转发，并且请求协议换成ws
+          predicates:
+            - Path=/smartPhoneWs/**
 
 eureka:
   instance:
