@@ -24,6 +24,8 @@
         <module>cloud-consumer-feigin-hystrix-order80</module>
         <module>cloud-hystrix-dashboard9001</module>
         <module>cloud-getway-getway9527</module>
+        <module>cloud-config-center-3344</module>
+        <module>cloud-config-client-3355</module>
     </modules>
     <!--  同意jar管理-->
     <properties>

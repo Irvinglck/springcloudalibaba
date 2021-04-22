@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1aebcc8-6406-4a8e-8271-936c8b647ad5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/lck/springcloud/OrderMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/lck/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/lck/springcloud/controllor/OrderControllor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/lck/springcloud/entities/CommonsResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/lck/springcloud/entities/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/lck/springcloud/controllor/PaymentControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/lck/springcloud/controllor/PaymentControllor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/lck/springcloud/controllor/PaymentControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/lck/springcloud/controllor/PaymentControllor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d1aebcc8-6406-4a8e-8271-936c8b647ad5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,19 +52,34 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/lck/springcloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3549884" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lck.springcloud.websocket" />
+      <recent name="com.lck.springcloud.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\micro_stu\springclodpro\cloud-consumer-order80\src\main\java\com\lck\springcloud" />
+      <recent name="F:\micro_stu\springclodpro\cloud-config-center-3344\src\main\resources" />
+      <recent name="F:\micro_stu\springclodpro\cloud-getway-getway9527\src\main\java\com\lck\springcloud\config" />
+      <recent name="F:\micro_stu\springclodpro\cloud-provider-payment8001\src\main\resources\static" />
+      <recent name="F:\micro_stu\springclodpro\cloud-eureka-server7002\src\main\resources" />
+      <recent name="F:\micro_stu\springclodpro\cloud-provider-payment8002\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -95,16 +99,124 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderMain80">
-    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-consumer-order80" />
+  <component name="RunManager" selected="Spring Boot.CloudConfigClient3355">
+    <configuration name="CloudConfigCenter3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-center-3344" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lck.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.CloudConfigCenter3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudConfigClient3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client-3355" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lck.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.CloudConfigClient3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudGetway9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-getway-getway9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lck.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.CloudGetway9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerConsul80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-order-consul80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.ConsumerConsul80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerFeigin80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-feign-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.ConsumerFeigin80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lck.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.EurekaMain7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lck.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.EurekaMain7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixOrder80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-feigin-hystrix-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.HystrixOrder80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.OrderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderZK80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-orderzk80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.OrderZK80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Payment8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.Payment8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentConsul8006" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment-consul8006" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.PaymentConsul8006" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentHystrix8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-hystrix-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.PaymentHystrix8001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,25 +228,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.PaymentMain8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.OrderMain80" />
+        <item itemvalue="Spring Boot.CloudConfigClient3355" />
+        <item itemvalue="Spring Boot.CloudConfigCenter3344" />
+        <item itemvalue="Spring Boot.EurekaMain7002" />
+        <item itemvalue="Spring Boot.EurekaMain7001" />
+        <item itemvalue="Spring Boot.CloudGetway9527" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
+        <option name="contentProportion" value="0.22131148" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6e67140e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5c62cda6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6e67140e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e11e776f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5c62cda6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7f44bfde" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -155,8 +279,169 @@
       <workItem from="1607853961870" duration="11520000" />
       <workItem from="1607870133601" duration="893000" />
       <workItem from="1607950629529" duration="3653000" />
-      <workItem from="1607955232659" duration="1454000" />
+      <workItem from="1607955232659" duration="5007000" />
+      <workItem from="1608124801906" duration="4601000" />
+      <workItem from="1608206643763" duration="4573000" />
+      <workItem from="1608359804030" duration="5195000" />
+      <workItem from="1608561449069" duration="3107000" />
+      <workItem from="1608645211823" duration="195000" />
+      <workItem from="1608726169126" duration="3622000" />
+      <workItem from="1608817500243" duration="3766000" />
+      <workItem from="1608987478758" duration="2802000" />
+      <workItem from="1609331850383" duration="3906000" />
+      <workItem from="1609497946388" duration="5886000" />
+      <workItem from="1609578334082" duration="2764000" />
+      <workItem from="1609592011583" duration="348000" />
+      <workItem from="1609667435962" duration="8037000" />
+      <workItem from="1609761404495" duration="6885000" />
+      <workItem from="1609851627299" duration="3552000" />
+      <workItem from="1609934326044" duration="6106000" />
+      <workItem from="1610025491572" duration="1570000" />
+      <workItem from="1610184100694" duration="2688000" />
+      <workItem from="1610187200850" duration="4349000" />
+      <workItem from="1610371849227" duration="1949000" />
+      <workItem from="1610458766896" duration="135000" />
+      <workItem from="1610459505686" duration="979000" />
+      <workItem from="1614653909181" duration="2326000" />
+      <workItem from="1618380404507" duration="10265000" />
+      <workItem from="1618450790350" duration="240000" />
+      <workItem from="1618454331333" duration="1889000" />
+      <workItem from="1619055247993" duration="6396000" />
     </task>
+    <task id="LOCAL-00001" summary="公共模块抽取&amp;eureka server服务端的搭建">
+      <created>1608046001061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608046001061</updated>
+    </task>
+    <task id="LOCAL-00002" summary="eureka集群搭建">
+      <created>1608132823649</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608132823649</updated>
+    </task>
+    <task id="LOCAL-00003" summary="service服务体统模块-集群搭建">
+      <created>1608212886396</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608212886396</updated>
+    </task>
+    <task id="LOCAL-00004" summary="eureka集群搭建bug修复">
+      <created>1608364365283</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608364365283</updated>
+    </task>
+    <task id="LOCAL-00005" summary="discovery">
+      <created>1608564373418</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608564373418</updated>
+    </task>
+    <task id="LOCAL-00006" summary="eureka去除保护机制">
+      <created>1608737789473</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608737789474</updated>
+    </task>
+    <task id="LOCAL-00007" summary="zk&amp;consul服务注册中心">
+      <created>1609337151240</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609337151240</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ribbon切换">
+      <created>1609592322643</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609592322643</updated>
+    </task>
+    <task id="LOCAL-00009" summary="openFeign使用&amp;超时配置&amp;增强日志配置">
+      <created>1609678096269</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609678096270</updated>
+    </task>
+    <task id="LOCAL-00010" summary="hystrix模块搭建">
+      <created>1609772288193</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609772288194</updated>
+    </task>
+    <task id="LOCAL-00011" summary="hystrix订单模块搭建">
+      <created>1609856506615</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609856506615</updated>
+    </task>
+    <task id="LOCAL-00012" summary="hystrix服务降级，消费模块&amp;服务模块降级配置">
+      <created>1609938866475</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609938866476</updated>
+    </task>
+    <task id="LOCAL-00013" summary="消费模块_追加默认服务降级配置">
+      <created>1609939710448</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609939710448</updated>
+    </task>
+    <task id="LOCAL-00014" summary="消费模块_添加服务降级处理类,优雅的跟业务代码分开">
+      <created>1609940867532</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609940867532</updated>
+    </task>
+    <task id="LOCAL-00015" summary="添加服务熔断功能">
+      <created>1610187425458</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1610187425458</updated>
+    </task>
+    <task id="LOCAL-00016" summary="hystrix仪表盘搭建&amp;hystrix监控">
+      <created>1610192550132</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1610192550132</updated>
+    </task>
+    <task id="LOCAL-00017" summary="getwawy网管搭建">
+      <created>1610373731591</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610373731591</updated>
+    </task>
+    <task id="LOCAL-00018" summary="没啥">
+      <created>1614655331137</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1614655331137</updated>
+    </task>
+    <task id="LOCAL-00019" summary="websocket集成到项目+websocket通过getway网关连接接通服务">
+      <created>1618391738697</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1618391738697</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,5 +462,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="公共模块抽取&amp;eureka server服务端的搭建" />
+    <MESSAGE value="eureka集群搭建" />
+    <MESSAGE value="service服务体统模块-集群搭建" />
+    <MESSAGE value="eureka集群搭建bug修复" />
+    <MESSAGE value="discovery" />
+    <MESSAGE value="eureka去除保护机制" />
+    <MESSAGE value="zk&amp;consul服务注册中心" />
+    <MESSAGE value="Ribbon切换" />
+    <MESSAGE value="openFeign使用&amp;超时配置&amp;增强日志配置" />
+    <MESSAGE value="hystrix模块搭建" />
+    <MESSAGE value="hystrix订单模块搭建" />
+    <MESSAGE value="hystrix服务降级，消费模块&amp;服务模块降级配置" />
+    <MESSAGE value="消费模块_追加默认服务降级配置" />
+    <MESSAGE value="消费模块_添加服务降级处理类,优雅的跟业务代码分开" />
+    <MESSAGE value="添加服务熔断功能" />
+    <MESSAGE value="hystrix仪表盘搭建&amp;hystrix监控" />
+    <MESSAGE value="getwawy网管搭建" />
+    <MESSAGE value="没啥" />
+    <MESSAGE value="websocket集成到项目+websocket通过getway网关连接接通服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="websocket集成到项目+websocket通过getway网关连接接通服务" />
   </component>
 </project>
