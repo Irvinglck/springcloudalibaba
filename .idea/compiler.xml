@@ -2,37 +2,64 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-consumer-order80" />
+        <module name="cloudalibaba-provider-payment9002" />
+        <module name="cloudalibaba-provider-payment9001" />
         <module name="cloud-consumer-feigin-hystrix-order80" />
         <module name="cloud-provider-hystrix-payment8001" />
         <module name="cloud-config-center-3344" />
+        <module name="cloudalibaba-config-nacos-client3377" />
         <module name="cloud-eureka-server7002" />
         <module name="cloud-eureka-server7001" />
-        <module name="cloud-hystrix-dashboard9001" />
+        <module name="cloud-consumer-order80" />
         <module name="cloud-api-commons" />
         <module name="cloud-provider-payment8004" />
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8001" />
         <module name="cloud-consumer-order-consul80" />
-        <module name="cloud-provider-payment-consul8006" />
+        <module name="cloudalibaba-sentinel-service8401" />
         <module name="cloud-consumer-orderzk80" />
+        <module name="cloud-stream-rabbitmq-provider-8801" />
+        <module name="cloud-stream-rabbitmq-consumer-8802" />
+        <module name="cloud-provider-payment-consul8006" />
+        <module name="cloud-hystrix-dashboard9001" />
         <module name="cloud-getway-getway9527" />
         <module name="cloud-config-client-3355" />
         <module name="cloud-consumer-feign-order80" />
+        <module name="cloud-config-client-3366" />
+        <module name="cloud-stream-rabbitmq-consumer-8803" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="springclodpro" target="1.8" />
+      <module name="cloud-api-commons" target="1.8" />
+      <module name="cloud-config-center-3344" target="1.8" />
+      <module name="cloud-config-client-3355" target="1.8" />
+      <module name="cloud-config-client-3366" target="1.8" />
+      <module name="cloud-consumer-feigin-hystrix-order80" target="1.8" />
+      <module name="cloud-consumer-feign-order80" target="1.8" />
+      <module name="cloud-consumer-order-consul80" target="1.8" />
+      <module name="cloud-consumer-order80" target="1.8" />
+      <module name="cloud-consumer-orderzk80" target="1.8" />
+      <module name="cloud-eureka-server7001" target="1.8" />
+      <module name="cloud-eureka-server7002" target="1.8" />
+      <module name="cloud-getway-getway9527" target="1.8" />
+      <module name="cloud-hystrix-dashboard9001" target="1.8" />
+      <module name="cloud-provider-hystrix-payment8001" target="1.8" />
+      <module name="cloud-provider-payment-consul8006" target="1.8" />
+      <module name="cloud-provider-payment8001" target="1.8" />
+      <module name="cloud-provider-payment8002" target="1.8" />
+      <module name="cloud-provider-payment8004" target="1.8" />
+      <module name="cloud-stream-rabbitmq-consumer-8802" target="1.8" />
+      <module name="cloud-stream-rabbitmq-consumer-8803" target="1.8" />
+      <module name="cloud-stream-rabbitmq-provider-8801" target="1.8" />
+      <module name="cloudalibaba-config-nacos-client3377" target="1.8" />
+      <module name="cloudalibaba-provider-payment9001" target="1.8" />
+      <module name="cloudalibaba-provider-payment9002" target="1.8" />
+      <module name="cloudalibaba-sentinel-service8401" target="1.8" />
+      <module name="springcloud_parent" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="cloud-config-center-3344" options="" />
-    </option>
   </component>
 </project>
