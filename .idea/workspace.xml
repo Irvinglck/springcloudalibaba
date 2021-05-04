@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b73fc80-6f7b-4760-aae3-37c3520fdec0" name="Default Changelist" comment="" />
+    <list default="true" id="7b73fc80-6f7b-4760-aae3-37c3520fdec0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/cloudalibaba-consumer-nacos-order84.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/lck/cloud/alibaba/OrderMain84.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/lck/cloud/alibaba/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/lck/cloud/alibaba/controllor/CircleBreakerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/cloudalibaba-provider-payment9004.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/java/alibaba/PaymentMain9004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/java/alibaba/com/lck/cloud/alibaba/controllor/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loudalibaba-provider-payment9003/loudalibaba-provider-payment9003.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loudalibaba-provider-payment9003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loudalibaba-provider-payment9003/src/main/java/com/lck/cloud/alibaba/PaymentMain9003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loudalibaba-provider-payment9003/src/main/java/com/lck/cloud/alibaba/controllor/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loudalibaba-provider-payment9003/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +61,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\gitlab\springcloud2021\springcloud2020\cloudalibaba-provider-payment9004\src\main\resources" />
+      <recent name="C:\Users\Administrator\Desktop\gitlab\springcloud2021\springcloud2020\cloudalibaba-provider-payment9004\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MainApp8401">
+  <component name="RunManager" selected="Spring Boot.OrderMain84">
     <configuration name="CloudConfigCenter3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-center-3344" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.CloudConfigCenter3344" />
@@ -120,7 +152,7 @@
       <module name="cloudalibaba-sentinel-service8401" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lck.cloud.alibaba.*" />
+          <option name="PATTERN" value="com.lck.cloud.alibaba.controllor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,6 +171,19 @@
     <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.OrderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain84" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-consumer-nacos-order84" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lck.cloud.alibaba.controllor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.cloud.alibaba.OrderMain84" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,6 +244,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMain9003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="loudalibaba-provider-payment9003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.cloud.alibaba.PaymentMain9003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-provider-payment9004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="alibaba.PaymentMain9004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamRabMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-stream-rabbitmq-provider-8801" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.StreamRabMQMain8801" />
@@ -222,6 +281,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderMain84" />
         <item itemvalue="Spring Boot.MainApp8401" />
       </list>
     </recent_temporary>
@@ -237,7 +297,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619843520740</updated>
       <workItem from="1619843521991" duration="2058000" />
-      <workItem from="1620096537476" duration="7832000" />
+      <workItem from="1620096537476" duration="12538000" />
     </task>
     <task id="LOCAL-00001" summary="sentinel流控限流&amp;自定义熔断处理">
       <created>1620134761544</created>
@@ -246,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620134761544</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sentinel流控限流&amp;自定义熔断处理">
+      <created>1620134888842</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620134888842</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

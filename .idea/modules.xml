@@ -24,9 +24,12 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/cloud-stream-rabbitmq-consumer-8803.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/cloud-stream-rabbitmq-consumer-8803.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/cloud-stream-rabbitmq-provider-8801.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/cloud-stream-rabbitmq-provider-8801.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/cloudalibaba-config-nacos-client3377.iml" filepath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/cloudalibaba-config-nacos-client3377.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/cloudalibaba-consumer-nacos-order84.iml" filepath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/cloudalibaba-consumer-nacos-order84.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/cloudalibaba-provider-payment9001.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/cloudalibaba-provider-payment9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9004/cloudalibaba-provider-payment9004.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/cloudalibaba-provider-payment9004.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" filepath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loudalibaba-provider-payment9003/loudalibaba-provider-payment9003.iml" filepath="$PROJECT_DIR$/loudalibaba-provider-payment9003/loudalibaba-provider-payment9003.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud_parent.iml" filepath="$PROJECT_DIR$/springcloud_parent.iml" />
     </modules>
   </component>
