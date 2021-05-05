@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b73fc80-6f7b-4760-aae3-37c3520fdec0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/cloudalibaba-consumer-nacos-order84.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/lck/cloud/alibaba/OrderMain84.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/lck/cloud/alibaba/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/lck/cloud/alibaba/controllor/CircleBreakerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/cloudalibaba-provider-payment9004.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/java/alibaba/PaymentMain9004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/java/alibaba/com/lck/cloud/alibaba/controllor/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loudalibaba-provider-payment9003/loudalibaba-provider-payment9003.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loudalibaba-provider-payment9003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loudalibaba-provider-payment9003/src/main/java/com/lck/cloud/alibaba/PaymentMain9003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loudalibaba-provider-payment9003/src/main/java/com/lck/cloud/alibaba/controllor/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loudalibaba-provider-payment9003/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/lck/cloud/alibaba/controllor/FlowLimitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/lck/cloud/alibaba/controllor/FlowLimitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderMain84">
+  <component name="RunManager" selected="Spring Boot.MainApp8401">
     <configuration name="CloudConfigCenter3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-center-3344" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lck.springcloud.CloudConfigCenter3344" />
@@ -281,8 +264,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.OrderMain84" />
         <item itemvalue="Spring Boot.MainApp8401" />
+        <item itemvalue="Spring Boot.OrderMain84" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +280,8 @@
       <option name="presentableId" value="Default" />
       <updated>1619843520740</updated>
       <workItem from="1619843521991" duration="2058000" />
-      <workItem from="1620096537476" duration="12538000" />
+      <workItem from="1620096537476" duration="12815000" />
+      <workItem from="1620191162206" duration="1046000" />
     </task>
     <task id="LOCAL-00001" summary="sentinel流控限流&amp;自定义熔断处理">
       <created>1620134761544</created>
@@ -313,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620134888842</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sentinel robbin系列 业务异常兜底&amp;sentinel规则出发兜底">
+      <created>1620141292232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620141292232</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +326,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="sentinel流控限流&amp;自定义熔断处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="sentinel流控限流&amp;自定义熔断处理" />
+    <MESSAGE value="sentinel robbin系列 业务异常兜底&amp;sentinel规则出发兜底" />
+    <option name="LAST_COMMIT_MESSAGE" value="sentinel robbin系列 业务异常兜底&amp;sentinel规则出发兜底" />
   </component>
 </project>

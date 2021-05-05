@@ -19,4 +19,14 @@ public class FlowLimitController {
     {
         return "------testB";
     }
+
+    /**
+     * 持久化配置
+     * @return
+     */
+    @GetMapping("/rateLimit/byUrl")
+    public String byUrl()
+    {
+        return "------持久化配置测试  rateLimit/byUrl";
+    }
 }
