@@ -18,7 +18,12 @@
     if ('WebSocket' in window) {
         // websocket = new WebSocket("ws://localhost:8999/api/video/ws/0");
         // websocket = new WebSocket("ws://localhost:22032/smartPhoneWs/0");
-        websocket = new WebSocket("ws://localhost:9527/smartPhoneWs/0/8001");
+        //websocket直接连接gateway网关连接
+        // websocket = new WebSocket("ws://localhost:9527/smartPhoneWs/0/8001");
+        //websocket通过nginx反向代理到网关9527
+        // websocket = new WebSocket("ws://localhost/wss/smartPhoneWs/0/8001");
+        //csr
+        websocket = new WebSocket("ws://192.168.3.2:28005/ws/customerServer/234312423fsd");
     } else {
         alert('Not support websocket')
     }

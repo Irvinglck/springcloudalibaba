@@ -16,8 +16,8 @@ import static org.springframework.cloud.gateway.support.ServerWebExchangeUtils.G
 @Component
 @Slf4j
 public class WebSocketFilter implements GlobalFilter, Ordered {
-
-    private final static String DEFAULT_FILTER_PATH = "/smartPhoneWs";
+    //感觉websocket跟这个没有毛关系
+    private final static String DEFAULT_FILTER_PATH = "/smartPhoneWs1";
 
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
